@@ -1,8 +1,7 @@
-# vue-study
+# Vue.js-study
+**Vue.js에 관해 공부하기 위한 레포지토지**
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Customize configuration
+### 빌드도구 : Vite
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
