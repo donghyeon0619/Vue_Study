@@ -4,7 +4,7 @@
 
 <template>
 <h1>hello world</h1>
-  <router-link to="test">test</router-link>
+  <router-link to="../test">test</router-link>
 </template>
 
 <style scoped>
