@@ -3,6 +3,10 @@ import HomeView from "@/views/HomeView.vue";
 import DataBinding from "@/views/DataBinding.vue";
 import DataBindingHtml from "@/views/DataBindingHtml.vue";
 import DataBindingAttribute from "@/views/DataBindingAttribute.vue";
+import EventHandle from "@/views/EventHandle.vue";
+import Computed from "@/views/Computed.vue";
+import NestedComponent from "@/views/NestedComponent.vue";
+import ParentComponent from "@/views/ParentComponent.vue";
 
 const routes = [
     {
@@ -30,6 +34,26 @@ const routes = [
         path: '/databindinghtml',
         name: 'DataBindingHtml',
         component: DataBindingHtml
+    },
+    {
+        path: '/eventhandle',
+        name: 'EventHandle',
+        component: EventHandle
+    },
+    {
+        path: '/computed',
+        name: 'Computed',
+        component: Computed,
+    },
+    {
+        path: '/nestedcomponent',
+        name: 'NestedComponent',
+        component: NestedComponent,
+    },
+    {
+        path: '/parentcomponent',
+        name: 'ParentComponent',
+        component: ParentComponent
     }
 ]
 
